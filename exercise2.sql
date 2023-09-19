@@ -1,4 +1,3 @@
--- Active: 1694602835533@@127.0.0.1@5432@northwind@public
 -- 1
 SELECT customers.*
 FROM customers LEFT JOIN orders ON customers.customer_id = orders.customer_id
