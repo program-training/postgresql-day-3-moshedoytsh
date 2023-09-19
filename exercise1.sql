@@ -1,4 +1,3 @@
--- Active: 1694602835533@@127.0.0.1@5432@northwind@public
 -- 1
 SELECT employees.last_name || ' ' || employees.first_name as full_name, COUNT(orders.order_id)
 FROM employees LEFT OUTER JOIN orders
